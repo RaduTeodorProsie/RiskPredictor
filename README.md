@@ -64,7 +64,7 @@ Where $Z \sim \mathcal{N}(0, 1)$ is a standard normal random variable.
 
 We define the barrier-breach indicator for a single path $i$:
 
-$$X_i = \mathbf{1}\left\{\min_{0 \leq t \leq T} S_t^{(i)} \leq B\right\}$$
+$$X_i = \mathbf{1}\lbrace\min_{0 \leq t \leq T} S_t^{(i)} \leq B\rbrace$$
 
 Where:
 - $B$ is the barrier level
