@@ -56,7 +56,7 @@ We model the asset price $S_t$ using **Geometric Brownian Motion (GBM)**, which 
 
 To simulate price movements, we use the following formula to compute the price at the next time step:
 
-$$S_{t+\Delta t} = S_t \cdot \exp\left[\left(\mu - \frac{\sigma^2}{2}\right)\Delta t + \sigma \sqrt{\Delta t} \, Z\right]$$
+$$S_{t+\Delta t} = S_t \cdot \exp\left[\left(\mu - \frac{\sigma^2}{2}\right)\Delta t + \sigma \sqrt{\Delta t} \cdot Z\right]$$
 
 Where $Z \sim \mathcal{N}(0, 1)$ is a standard normal random variable.
 
